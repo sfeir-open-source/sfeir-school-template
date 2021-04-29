@@ -1,0 +1,18 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/docs"
+  schedule:
+    interval: daily
+    time: "04:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: snowpack
+    versions:
+    - 3.0.11
+    - 3.0.12
+    - 3.0.13
+    - 3.1.2
+    - 3.2.2
+    - 3.3.0
+    - 3.3.5
