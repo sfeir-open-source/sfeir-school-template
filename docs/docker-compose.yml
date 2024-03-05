@@ -3,7 +3,7 @@ services:
   npx:
     image: node:20.11
     user: node
-    command: npm start
+    command: bash -c "npm install --ignore-scripts && npm start"
     volumes:
       - .:/sources
     working_dir: /sources
