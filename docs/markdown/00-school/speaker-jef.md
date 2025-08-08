@@ -1,17 +1,19 @@
 <!-- .slide: class="speaker-slide" -->
 
-# Présentation
+<div class="speaker-slide">
 
-![speaker](./assets/images/jf.jpg)
-![badge](./assets/images/gde.png)
-![company](./assets/images/logo-sfeir-blanc.png)
+# Présentation
 
 ## Jean-François Garreau
 
 ### CTO front
 
-<!-- .element: class="icon-rule icon-first" -->
-
 ### @jefbinomed
 
-<!-- .element: class="icon-twitter icon-second" -->
+![](./assets/images/jf.jpg 'speaker')
+
+![](./assets/images/logo-sfeir-blanc.png 'company')
+
+![](./assets/images/gde.png 'badge')
+
+</div>
