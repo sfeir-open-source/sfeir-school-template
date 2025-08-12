@@ -1,6 +1,6 @@
 {
   "name": "sfeir-school-theme",
-  "version": "4.0.0-rc-9",
+  "version": "4.0.0-rc-10",
   "description": "Sfeir School Theme for RevealJS",
   "files": [
     "dist"
@@ -12,6 +12,10 @@
   "module": "./dist/sfeir-school-theme.mjs",
   "types": "./dist/sfeir-school-theme.d.ts",
   "style": "./dist/sfeir-school-theme.css",
+  "bin": {
+    "sfeir-school-theme-cleanup": "./dist/sfeir-school-theme-cleanup.mjs",
+    "sfeir-school-theme-migrate": "./dist/sfeir-school-theme-migration.mjs"
+  },
   "exports": {
     ".": {
       "import": "./dist/sfeir-school-theme.mjs",
