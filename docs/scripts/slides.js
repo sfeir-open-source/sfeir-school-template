@@ -6,10 +6,10 @@ function schoolSlides() {
 }
 
 function introSlides() {
-  return ['intro/00-TITLE.md'];
+  return ['intro/00-TITLE.md', 'intro/99-lab-workshop-example.md'];
 }
 
-function formation() {
+export function formation() {
   return [
     //
     ...schoolSlides(), //
