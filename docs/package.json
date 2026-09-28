@@ -8,7 +8,8 @@
     "test": "sfeir-school-theme check --rootDir=..",
     "serve": "live-server --port=4242 --open=\"./index.html\" --watch=\"markdown,scripts/\"",
     "start": "parallelshell \"npm run serve\" \"npm run sass\"",
-    "prepare": "node ./scripts/dont-touch/prepare-script.js"
+    "dependencies": "nudeps --dir=web_modules",
+    "prepare": "nudeps --dir=web_modules"
   },
   "repository": {
     "type": "git",
@@ -30,8 +31,9 @@
   "devDependencies": {
     "chokidar-cli": "^3.0.0",
     "live-server": "^1.1.0",
+    "nudeps": "^0.4.1",
     "parallelshell": "3.0.1",
-    "sass": "^1.77.6",
-    "shelljs": "^0.8.5"
-  }
+    "sass": "^1.77.6"
+  },
+  "type": "module"
 }

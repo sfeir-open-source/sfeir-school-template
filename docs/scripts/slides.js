@@ -1,4 +1,4 @@
-import { SfeirThemeInitializer } from '../web_modules/sfeir-school-theme/dist/sfeir-school-theme.mjs';
+import { SfeirThemeInitializer } from 'sfeir-school-theme';
 
 // One method per module
 function schoolSlides() {
